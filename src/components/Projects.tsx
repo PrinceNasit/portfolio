@@ -67,7 +67,7 @@ const projects: Project[] = [
       "A comprehensive finance tracker with transaction monitoring, account management, and real-time market updates. Features multi-currency / multi-language support and AI-powered sentiment analysis.",
     img: FinManager,
     // link: "https://medicalq.vercel.app/",
-    github_link: "https://github.com/abhinav-phi/MedicalQ",
+    github_link: "https://github.com/PrinceNasit/Finance-Manager",
     tech: [
       { icon: SiReact, name: "React", color: "text-blue-500" },
       { icon: SiTypescript, name: "TypeScript", color: "text-blue-600" },
@@ -87,7 +87,7 @@ const projects: Project[] = [
       "A modern, full-featured e-learning platform offering secure user authentication, seamless payment integration, and adaptive video streaming using HLS. Enables personalized learning experiences with interactive quizzes, progress tracking, and automated certificate generation.",
     img: lms,
     // link: "https://abhinavphi.vercel.app",
-    github_link: "https://github.com/abhinav-phi/personal-website",
+    github_link: "https://github.com/PrinceNasit/Learning-Management-System",
     tech: [
       { icon: SiNextdotjs, name: "Next", color: "text-black" },
       { icon: SiTailwindcss, name: "TailwindCSS", color: "text-teal-500" },

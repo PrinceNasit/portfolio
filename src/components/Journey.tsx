@@ -29,6 +29,7 @@ import {
   FaUniversity,
 } from "react-icons/fa";
 import { IconType } from "react-icons";
+import Link from "next/link";
 
 // Education data
 const educationData = [
@@ -162,7 +163,7 @@ const personalInfo = {
   location: "Rajkot, India",
   email: "princenasit371@gmail.com",
   phone: "+91 99048 19036",
-  website: "www.princenasit.com",
+  website: "https://princenasit.vercel.app/",
   bio: "I'm a passionate full-stack developer who loves turning complex problems into simple, beautiful solutions. With a strong foundation in modern web technologies, I enjoy creating user-centric applications that make a difference. When I'm not coding, you'll find me exploring new technologies, contributing to open source, or capturing moments through my camera lens.",
   profileImage: profileImage,
   availability: "Available for freelance & full-time opportunities",
@@ -401,7 +402,7 @@ const About = () => {
                               </p>
                               <p className="flex items-center gap-2 justify-center lg:justify-start">
                                 <FaGlobe className="text-cyan-500" />
-                                {personalInfo.website}
+                              <Link href={personalInfo.website}>  {personalInfo.website}</Link>
                               </p>
                               <p className="flex items-center gap-2 justify-center lg:justify-start">
                                 <FaMapMarkerAlt className="text-red-500" />

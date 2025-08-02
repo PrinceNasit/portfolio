@@ -167,7 +167,7 @@ const Contact = () => {
                       size="lg"
                       onClick={() =>
                         window.open(
-                          "https://drive.google.com/file/d/1zcInGUrOZN8W7lElse6HEgdE24uPh9Va/view?usp=sharing",
+                          "https://drive.google.com/file/d/1JQ7mGkos0qBRienJTZp01T2pYEcp_RoU/view?usp=sharing",
                           "_blank"
                         )
                       }
